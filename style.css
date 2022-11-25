@@ -1,0 +1,142 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #EAEDED;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container-main {
+    margin: 0 2em 0 2em;
+}
+
+
+#nav-bar {
+    position: sticky;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+
+
+#nav-logo {
+    background-color: #222F3E;
+}
+
+#nav-link {
+    background-color: #465d76;
+    color: white;
+
+}
+
+#nav-link a {
+    padding: 0.2em 0.5em 0.2em 0.5em;
+    font-weight: inherit;
+}
+
+
+
+#nav-logo img {
+    height: 2.5em;
+    padding: 0.5em 0 0.5em 1.5em;
+}
+
+
+
+
+
+.bg-dark {
+    color: #eaeded;
+    background-color: #465d76;
+}
+
+.bg-yellow {
+    color: #eaeded;
+    background-color: #f56600;
+}
+
+.py-1 {
+    padding: 1rem 0;
+}
+
+.bg-image {
+    color: white;
+    background: no-repeat center/100% url(assets/bg-image.png);
+    padding: 1em;
+}
+
+.top-margin {
+    margin: 2em 0em 2em 0em;
+}
+
+.cards {
+    background-color: white;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.cards img {
+    width: 274px;
+    height: 274px;
+    margin: 2em 2em 2em 2em;
+    border-radius: 2ch;
+    box-shadow: 0 0px 5px rgb(0 0 0 / 16%);
+
+
+}
+
+
+
+.cards img:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+
+.text-gift {
+    text-align: left;
+}
+
+.text-gift h2 {
+    padding: 1em 0 0 1em;
+}
+
+.text-gift span {
+    padding-left: 2em;
+    font-size: medium;
+    color: #017185;
+    font-weight: bolder;
+}
+
+.imgnr9 {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.underline {
+    text-decoration: underline;
+    color: white;
+}
+
+
+
+#footer-logo {
+    background-color: #222F3E;
+    text-align: center;
+    padding: 2em 0 2em 0;
+
+}
+
+#footer-logo img {
+    height: 2.5em;
+    padding: 0.5em 0 0.5em 1.5em;
+
+}
